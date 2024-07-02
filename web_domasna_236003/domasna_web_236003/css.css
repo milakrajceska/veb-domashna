@@ -1,0 +1,257 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    background: moccasin;
+    height: 100px;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+}
+#navi a{
+    text-decoration: none;
+    color: darkslategray;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+header{
+    background: url("iXTctJ.jpg") no-repeat ;
+    width: 1200px;
+    height: 600px;
+    /*margin-top: -10px;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#marble p{
+    font-size: 40px;
+    color:darkslategrey ;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+}
+
+#tekst{
+    width: 750px;
+    background:#E7E6EB ;
+}
+
+header #button{
+    background: #aa9a8b;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #aa9a8b ;
+    border-radius: 4px;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+footer{
+    background: moccasin;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+}
+
+#finkiIMG, #friend, #goal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+section{
+    padding-top: 40px;
+    background: #d8d8d8;
+    height: 560px;
+}
+
+#mesta{
+    padding-top: 40px;
+    background: #eee8e0;
+    height: 560px;
+}
+
+#finkiIMG div, #friend div, #goal div, #barca1{
+    width: 750px;
+    border-bottom: darkslategrey 2px solid;
+}
+
+#friend img {
+    width: 225px;
+    height: 150px;
+}
+#goal img{
+    width: 270px;
+    height: 150px;
+}
+
+#barca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+#mapa{
+    border: #aa9a8b 2px solid;
+    height: 250px;
+}
+
+#other{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    text-align: center;
+}
+
+#other .gore img{
+    width: 40px;
+    height: 40px;
+}
+
+#other p{
+    width: 300px;
+}
+
+#other .gore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#other .slika{
+    border: darkslategrey 2px solid;
+}
+
+#contact{
+    height: 600px;
+    background:#eee8e0 ;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#linkovi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.heading a{
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+#contact .container{
+    display: flex;
+    justify-content: center;
+}
+
+#contact input{
+    padding: 30px;
+    border: 1px solid darkslategrey;
+    border-radius: 20px;
+}
+
+#contact .col-md-offset-1.col-md-10.col-sm-12 .col-md-4:nth-child(3){
+    margin-left: 250px;
+    margin-top: -76px;
+}
+
+#contact .col-md-offset-1.col-md-10.col-sm-12 .col-md-4:nth-child(4){
+    margin-left: 500px;
+    margin-top: -76px;
+}
+
+#contact .col-md-offset-1.col-md-10.col-sm-12 .col-md-4:nth-child(4) input{
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid darkslategrey;
+}
+
+#contact .col-md-offset-1.col-md-10.col-sm-12 textarea{
+    padding-right: 470px;
+    border: 1px solid #aa9a8b ;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.heading img{
+    margin-right: 10px;
+}
+
+#contact{
+    margin-top: -20px;
+}
+
+#contact p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contact h1{
+    color: darkslategrey;
+}
+
+nav a:hover{
+    box-shadow: 0 2px 2px #eee8e0, 2px 0 2px #eee8e0;
+}
+
+.heading a:hover{
+    box-shadow: 0 2px 2px #aa9a8b, 2px 0 2px #aa9a8b;
+}
+
+nav h1{
+    color: darkslategrey;
+    font-weight: bolder;
+}
+
+#button:hover{
+    cursor: grab;
+    box-shadow: 0 2px 5px darkslategrey, 2px 0 5px darkslategrey ;
+}
+
+#form-kopce:hover{
+    cursor: grab;
+    box-shadow: 0 2px 5px #aa9a8b, 2px 0 5px #aa9a8b ;
+}
+
